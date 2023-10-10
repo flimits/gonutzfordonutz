@@ -1,0 +1,15 @@
+* {
+    background-color: #5ce1e6;
+    font-family: sans-serif;
+    color: #ff66c4;
+}
+
+h1 {
+    border-style: solid;
+    border-color: #ffde59;
+}
+
+button {
+    background-color: #ffde59;
+    color: black;
+}
