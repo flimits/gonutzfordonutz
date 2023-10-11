@@ -1,7 +1,31 @@
-.navLogo{
-    margin: 2px;
-    width: 5%;
+.nav-logo{
+    margin: .2%;
+    width: 3%;
 }
 .nav-wrapper{
     background-color: hotpink;
+}
+.nav-link{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: aqua;
+}
+#header-bar{
+    font-family: cursive;
+    font-size: 40px;
+    color: aqua;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: hotpink;
+    border-radius: 15px;
+}
+.map{
+    width: 1700px;
+    height: 750px;
+    margin-left: 5%;
+    margin-top: 5.5%;
 }
