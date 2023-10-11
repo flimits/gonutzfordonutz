@@ -1,3 +1,13 @@
+* {
+    /* font-family: sans-serif;
+    color: #ff66c4; */
+}
+
+#recipe-btn {
+    background-color: #ffde59;
+    color: black;
+}
+
 .nav-logo{
     margin: .2%;
     width: 3%;
