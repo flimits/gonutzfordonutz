@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
     <nav>
         <div class="nav-wrapper">
-        <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a id="nav-link" href="index.html">Homepage</a></li>
-            <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
-            <li><a id="nav-link" href="recipes.html">Recipes</a></li>
-            <li><a id="nav-link" href="merch.html">Merch</a></li>
-            <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
-        </ul>  
+            <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a id="nav-link" href="index.html">Homepage</a></li>
+                <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+                <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+                <li><a id="nav-link" href="merch.html">Merch</a></li>
+                <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
+            </ul>
         </div>
-        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>      
+        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>
     </nav>
     <ul class="sidenav" id="mobile-demo">
         <li><a id="nav-link" href="index.html">Homepage</a></li>
@@ -29,14 +31,53 @@
         <li><a id="nav-link" href="merch.html">Merch</a></li>
         <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
     </ul>
-    <div id="two-blogs" class="two-blogs">
-    <div id="merchant-block" class="blogspots">
-        <h2> Show Your Best Donut Here</h2>
+    <div id="two-blogs" class="row">
+        <div id="the-left" class="col s6">
+            <div id="shopper-block" class="blogspots">
+                <h6>Blog for Customer Requests</h6>
+                <h6 class="date">date</h6>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Strut Your Stuff</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Leave Comments</h3>
+                <p>What do you think? ...</p>
+            </div>
+        </div>
+        <div id="the-right" class="col s6">
+            <div id="shopper-block" class="blogspots">
+                <h6>Blog for Customer Requests</h6>
+                <h6 class="date">date</h6>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Make your requests</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Leave Comments</h3>
+                <p>What do you think? ...</p>
+            </div>
+        </div>
+
     </div>
-    <div id="shopper-block" class="blogspots">What Is Your Request</div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/donut-shop.js"></script>
 </body>
+
 </html>
