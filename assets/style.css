@@ -113,6 +113,21 @@ iframe {
 .section{
     background-color: #ff66c4;
 }
+
+
+#page {
+    margin-top: 200px;
+}
+
+#bacon {
+    color:#ff66c4;
+    font-weight: bold;
+}
+
+#cite {
+    font-size: x-small;
+    text-indent: 50px;
+}
 #welcome{
     background-image: linear-gradient(to right, #ffde59 , #ff66c4);
     padding: 7.5px;
