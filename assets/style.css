@@ -130,3 +130,12 @@ iframe {
     height: 9%;
     width: 9%;
 }
+@media screen and (max-width: 768px){
+    .nav-logo {
+        margin: .2%;
+        width: 10%;
+    }
+}
+@media screen and (max-width: 576px){
+    
+}
