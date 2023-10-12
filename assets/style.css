@@ -78,10 +78,16 @@ iframe {
     background-color: #ff66c4;
 }
 
-#position {
-   margin-top: 10%;
+#page {
+    margin-top: 200px;
 }
 
-#position2 {
-    margin-top: 10%;
- }
+#bacon {
+    color:#ff66c4;
+    font-weight: bold;
+}
+
+#cite {
+    font-size: x-small;
+    text-indent: 50px;
+}
