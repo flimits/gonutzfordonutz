@@ -15,7 +15,7 @@
 .nav-wrapper{
     background-color: #ff66c4;
 }
-.nav-link{
+#nav-link{
     font-family: cursive;
     font-size: 20px;
     font-weight: 500;
@@ -42,11 +42,10 @@ nav{
     position: absolute;
     z-index: 2;
 }
-.sidenav{
-    position: absolute;
-    z-index: 2;
-}
 iframe{
     position: absolute;
     z-index: 0;
+}
+#mobile-demo{
+    background-color: #ff66c4;
 }
