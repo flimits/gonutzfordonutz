@@ -13,8 +13,8 @@
     width: 3%;
 }
 
-.nav-wrapper {
-    background-color: hotpink;
+.nav-wrapper{
+    background-color: #ff66c4;
 }
 
 .two-blogs {
@@ -30,7 +30,7 @@
     margin: 20px;
 }
 
-.nav-link {
+#nav-link {
     font-family: cursive;
     font-size: 20px;
     font-weight: 500;
@@ -46,7 +46,7 @@
     margin-left: 35%;
     margin-right: 35%;
     text-align: center;
-    background-color: hotpink;
+    background-color: #ff66c4;
     border-radius: 15px;
 }
 
@@ -64,4 +64,7 @@ nav {
 iframe {
     position: absolute;
     z-index: 0;
+}
+#mobile-demo{
+    background-color: #ff66c4;
 }
