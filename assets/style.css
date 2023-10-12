@@ -13,7 +13,7 @@
     width: 3%;
 }
 .nav-wrapper{
-    background-color: hotpink;
+    background-color: #ff66c4;
 }
 .nav-link{
     font-family: cursive;
@@ -30,7 +30,7 @@
     margin-left: 35%;
     margin-right: 35%;
     text-align: center;
-    background-color: hotpink;
+    background-color: #ff66c4;
     border-radius: 15px;
 }
 .map{
@@ -39,6 +39,10 @@
     margin-top: 3.3%;
 }
 nav{
+    position: absolute;
+    z-index: 2;
+}
+.sidenav{
     position: absolute;
     z-index: 2;
 }
