@@ -3,6 +3,10 @@
     color: #ff66c4; */
 }
 
+footer{
+    margin-bottom:0;
+}
+
 #recipe-btn {
     background-color: #ffde59;
     color: black;
