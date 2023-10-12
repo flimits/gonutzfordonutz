@@ -12,17 +12,25 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-        <img class="nav-logo" src="assets/image/GND.png" alt="logo">
-        <ul id="nav-mobile" class="right">
-            <li><a class="nav-link" href="homepage.html">Homepage</a></li>
-            <li><a class="nav-link" href="donut-locator.html">Donut Locator</a></li>
-            <li><a class="nav-link" href="recipes.html">Recipes</a></li>
-            <li><a class="nav-link" href="merch.html">Merch</a></li>
-            <li><a class="nav-link" href="donut-shop.html">Donut Shop</a></li>
+        <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a id="nav-link" href="homepage.html">Homepage</a></li>
+            <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+            <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+            <li><a id="nav-link" href="merch.html">Merch</a></li>
+            <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
         </ul>  
         </div>
-        <h1 id="header-bar">Go Nutz Donutz and Friends: Recipes and Blogs</h1>      
+        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>      
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a id="nav-link" href="homepage.html">Homepage</a></li>
+        <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+        <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+        <li><a id="nav-link" href="merch.html">Merch</a></li>
+        <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
+    </ul>
     <div>
         <input type="text" placeholder="Recipes Search">
         <input type="button" placeholder="Search">
@@ -52,7 +60,9 @@
         <a href="https://www.kingarthurbaking.com/recipes/baked-doughnuts-three-ways-recipe" target="_blank">
             <button id="recipe-btn">Bake Donghnuts Three Ways</button></a>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/donut-locator.js"></script>
 </body>
 
 </html>

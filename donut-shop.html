@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Donutz Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="nav-wrapper">
+        <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a id="nav-link" href="homepage.html">Homepage</a></li>
+            <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+            <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+            <li><a id="nav-link" href="merch.html">Merch</a></li>
+            <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
+        </ul>  
+        </div>
+        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>      
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a id="nav-link" href="homepage.html">Homepage</a></li>
+        <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+        <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+        <li><a id="nav-link" href="merch.html">Merch</a></li>
+        <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
+    </ul>
+    <div id="two-blogs" class="two-blogs">
+    <div id="merchant-block" class="blogspots">
+        <h2> Show Your Best Donut Here</h2>
+    </div>
+    <div id="shopper-block" class="blogspots">What Is Your Request</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/donut-locator.js"></script>
 </body>
 </html>
