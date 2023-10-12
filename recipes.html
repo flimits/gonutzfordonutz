@@ -12,17 +12,17 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-        <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a id="nav-link" href="homepage.html">Homepage</a></li>
-            <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
-            <li><a id="nav-link" href="recipes.html">Recipes</a></li>
-            <li><a id="nav-link" href="merch.html">Merch</a></li>
-            <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
-        </ul>  
+            <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a id="nav-link" href="homepage.html">Homepage</a></li>
+                <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+                <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+                <li><a id="nav-link" href="merch.html">Merch</a></li>
+                <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
+            </ul>
         </div>
-        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>      
+        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>
     </nav>
     <ul class="sidenav" id="mobile-demo">
         <li><a id="nav-link" href="homepage.html">Homepage</a></li>
@@ -31,36 +31,44 @@
         <li><a id="nav-link" href="merch.html">Merch</a></li>
         <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
     </ul>
-    <div>
-        <input type="text" placeholder="Recipes Search">
-        <input type="button" placeholder="Search">
+    <div class="row">
+        <div class="col s12 m7 18" id="position">
+            <div>
+                <input type="text" placeholder="Recipes Search">
+                <input type="button" placeholder="Search">
+            </div>
+            <div>
+                <input type="text" placeholder="Donut of the Week">
+                <br>
+                <input type="text" placeholder="Recipe Blog Post">
+                <br>
+                <input type="text" placeholder="Comments">
+            </div>
+        </div>
+        <div class="col s12 m5 14" id="position">
+        <div id="position2">
+            <h5>Check Out These Fun Donut Recipes and Blogs</h5>
+            <br>
+            <a href="https://blog.cheapism.com/crazy-gourmet-doughnuts/" target="_blank">
+                <button id="recipe-btn">31 Crazy Delicious Doughnuts Across America</button></a>
+            <br>
+            <a href="https://www.peanutblossom.com/blog/halloween-donuts/" target="_blank">
+                <button id="recipe-btn">10 DIY Halloween Donut Ideas</button></a>
+            <br>
+            <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-old-fashioned-doughnut-7472200"
+                target="_blank">
+                <button id="recipe-btn">The Best Old-Fashioned Doughnuts</button></a>
+            <br>
+            <a href="https://amandascookin.com/air-fryer-donuts/#wprm-recipe-container-50353" target="_blank">
+                <button id="recipe-btn">Air Fryer Donuts</button></a>
+            <br>
+            <a href="https://www.kingarthurbaking.com/recipes/baked-doughnuts-three-ways-recipe" target="_blank">
+                <button id="recipe-btn">Bake Donghnuts Three Ways</button></a>
+        </div>
+        </div>
     </div>
-    <div>
-        <input type="text" placeholder="Donut of the Week">
-        <br>
-        <input type="text" placeholder="Recipe Blog Post">
-        <br>
-        <input type="text" placeholder="Comments">
-    </div>
-    <div>
-        <h3>Check Out These Fun Donut Recipes and Blogs</h3>
-        <br>
-        <a href="https://blog.cheapism.com/crazy-gourmet-doughnuts/" target="_blank">
-            <button id="recipe-btn">31 Crazy Delicious Doughnuts Across America</button></a>
-        <br>
-        <a href="https://www.peanutblossom.com/blog/halloween-donuts/" target="_blank">
-            <button id="recipe-btn">10 DIY Halloween Donut Ideas</button></a>
-        <br>
-        <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-old-fashioned-doughnut-7472200" target="_blank">
-            <button id="recipe-btn">The Best Old-Fashioned Doughnuts</button></a>
-        <br>
-        <a href="https://amandascookin.com/air-fryer-donuts/#wprm-recipe-container-50353" target="_blank">
-            <button id="recipe-btn">Air Fryer Donuts</button></a>
-        <br>
-        <a href="https://www.kingarthurbaking.com/recipes/baked-doughnuts-three-ways-recipe" target="_blank">
-            <button id="recipe-btn">Bake Donghnuts Three Ways</button></a>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/donut-locator.js"></script>
 </body>
