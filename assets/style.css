@@ -80,3 +80,20 @@ iframe {
 .section{
     background-color: #ff66c4;
 }
+#welcome{
+    background-image: linear-gradient(to right, #ffde59 , #ff66c4);
+    padding: 7.5px;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 15%;
+    font-family: cursive;
+    color: aqua;
+    text-align: center;
+}
+#welcome-logo{
+    position: absolute;
+    top: 108px;
+    left:120px;
+    height: 9%;
+    width: 9%;
+}
