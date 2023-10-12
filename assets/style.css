@@ -22,17 +22,17 @@
     background-color: lightblue;
 } */
 
-#the-left{
+#the-left {
     margin-top: 200px;
     /* background-color: rgb(249, 188, 92); */
-    background-image: linear-gradient(to right, orange , yellow);
+    background-image: linear-gradient(to right, orange, yellow);
 
 }
 
-#the-right{
-    margin-top: 200px;    
+#the-right {
+    margin-top: 200px;
     /* background-color: lightblue; */
-    background-image: linear-gradient(to right, aqua , hotpink);
+    background-image: linear-gradient(to right, aqua, hotpink);
 }
 
 .blogspots {
@@ -51,10 +51,19 @@
     margin-top: 20px;
 }
 
-.materialize-textarea {
-color: white;
-/* text-shadow: 1px 1px 2px black; */
+.merc-input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    border: solid #5B6DCD 3px;
+    padding: 5px;
 }
+
+.blog-text {
+    color: white;
+    /* text-shadow: 1px 1px 2px black; */
+}
+
 #input-box {
     box-sizing: border-box;
     width: 100%;
