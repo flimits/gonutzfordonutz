@@ -1,6 +1,6 @@
-var getTodaysDate = document.querySelector(".date")
+var getTodaysDate = document.querySelector(".date");
 
-var todayDate = dayjs().format('MMMM D, YYYY')
+var todayDate = dayjs().format('MMMM D, YYYY');
 getTodaysDate.textContent = todayDate;
 
 $(document).ready(function () {
