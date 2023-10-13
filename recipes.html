@@ -11,8 +11,10 @@
 </head>
 
 <body>
+
     <nav>
-        <div class="nav-wrapper">
+
+       <div class="nav-wrapper">
         <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -22,8 +24,9 @@
             <li><a id="nav-link" href="merch.html">Merch</a></li>
             <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
         </ul>  
+
         </div>
-        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>      
+        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>
     </nav>
     <ul class="sidenav" id="mobile-demo">
         <li><a id="nav-link" href="index.html">Homepage</a></li>
@@ -32,36 +35,78 @@
         <li><a id="nav-link" href="merch.html">Merch</a></li>
         <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
     </ul>
-    <div>
-        <input type="text" placeholder="Recipes Search">
-        <input type="button" placeholder="Search">
+    <div class="section">
+        <div class="row" id="page">
+            <div class="col s12">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Search</label>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                <i class="material-icons right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/image/BaconLongJohn.jpg" alt="Bacon Long John">
+                            <br>
+                            <span class="card-title" id="bacon">The Bacon Long John a.k.a. 'The Elvis'</span>
+                            <br>
+                            <p id="cite"><cite>BaconLongJohn</cite> by <a
+                                    href="https://commons.wikimedia.org/wiki/User:Jonathunder">Jonathunder</a>. Printed
+                                in 2014.</p>
+                        </div>
+                        <div class="card-content">
+                            <p>The Bacon Long John or Maple Bacon Donut is thought to have come out as part of the bacon
+                                mania that has swept the United States and Canada and described as the perfect “campfire
+                                breakfast” on the go with its yummy bacon pieces and maple syrup-flavored glaze.</p>
+                            <br>
+                            <p>According to website <a href="https://www.wikiwand.com/en/Maple_bacon_donut">Wikiwand</a>
+                                the popular history is that Dawn Brown, owner of The Swirls bakery in Omaha, Nebraska,
+                                started the “maple bacon donut craze” with “the Elvis”:</p>
+                            <br>
+                            <p>“The bakery's owner, Dawn Brown, said she wanted something shocking that people would
+                                love or hate, and would talk about. She describes the concept as simple: "It's your
+                                breakfast plate turned into one item that you put in your mouth." She reported: response
+                                from her customers has been overwhelming, and she prepares five pounds of bacon daily.
+                                "I know that most people are coming for the maple bacon donut a.k.a. 'The Elvis'."</p>
+                            <br>
+                            <p>Other popular donut shops have added similar bacon maple donuts to their menu; such as <a
+                                    href="https://dynamodonut.com/">Dynamo Donut</a> in San Francisco, CA, and <a
+                                    href="https://www.voodoodoughnut.com/">Voodoo Doughnut</a> in Portland, OR.</p>
+                            <br>
+                            <p>The ones I have had are called Maple Bacon Bars by <a
+                                    href="https://www.casualfridaydonuts.com/">Casual Friday Donuts</a> here in Spokane,
+                                WA, and they are one of my favorite donuts on their own but I have several friends that
+                                like to take it up a notch with the ones that have jalapenos added to the bacon and
+                                maple topped donut.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m5">
+                    <div class="card-panel cyan accent-1">
+                        <span class="white-text">I am a very simple card. I am good at containing small bits of
+                            information.
+                            I am convenient because I require little markup to use effectively. I am similar to what is
+                            called a panel in other frameworks.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <input type="text" placeholder="Donut of the Week">
-        <br>
-        <input type="text" placeholder="Recipe Blog Post">
-        <br>
-        <input type="text" placeholder="Comments">
-    </div>
-    <div>
-        <h3>Check Out These Fun Donut Recipes and Blogs</h3>
-        <br>
-        <a href="https://blog.cheapism.com/crazy-gourmet-doughnuts/" target="_blank">
-            <button id="recipe-btn">31 Crazy Delicious Doughnuts Across America</button></a>
-        <br>
-        <a href="https://www.peanutblossom.com/blog/halloween-donuts/" target="_blank">
-            <button id="recipe-btn">10 DIY Halloween Donut Ideas</button></a>
-        <br>
-        <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-old-fashioned-doughnut-7472200" target="_blank">
-            <button id="recipe-btn">The Best Old-Fashioned Doughnuts</button></a>
-        <br>
-        <a href="https://amandascookin.com/air-fryer-donuts/#wprm-recipe-container-50353" target="_blank">
-            <button id="recipe-btn">Air Fryer Donuts</button></a>
-        <br>
-        <a href="https://www.kingarthurbaking.com/recipes/baked-doughnuts-three-ways-recipe" target="_blank">
-            <button id="recipe-btn">Bake Donghnuts Three Ways</button></a>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/recipes.js"></script>
 </body>
