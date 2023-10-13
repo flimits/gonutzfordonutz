@@ -145,9 +145,11 @@ iframe {
 
 #rb-btns {
     font-size: x-large;
-    
 }
-
+#dict {
+    background-color: black;
+    color: white;
+}
 #welcome{
     background-image: linear-gradient(to right, #ffde59 , #ff66c4);
     padding: 7.5px;
