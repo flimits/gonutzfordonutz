@@ -34,19 +34,19 @@
     </ul>
     <div id="two-blogs" class="row">
         <div id="the-left" class="col s6">
-            <div id="shopper-block" class="blogspots">
-                <h6>Blog for Customer Requests</h6>
-                <h6 class="date">date</h6>
+            <div id="merc-block" class="blogspots">
+                <h6 class="box-heading1">Blog for Merchant Sales</h6>
+                <h6 class="box-heading2 date">date</h6>
                 <div class="row">
                     <form class="col s12 merc-input">
                         <div class="row">
-                            <p> 
-                                Share you donutz wares here. Brag a little!!!.  
-                            </p> 
-                           
-                            BlogIt:<input type="text" id="myStore" class="blog-text" value="The best ..."> 
-                            <button id="btn" type="button">SubmitBlog</button> 
-                            <div id="saveItM"></div> 
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="blog-text"></textarea>
+                                <label for="textarea1">Make your requests</label>
+                                <div class="shove-it-here"></div>
+                            </div>
+                            <div id="saveItM"></div>
+                            <p id="demo1"></p>
                         </div>
                     </form>
                 </div>
@@ -58,16 +58,18 @@
         </div>
         <div id="the-right" class="col s6">
             <div id="shopper-block" class="blogspots">
-                <h6>Blog for Customer Requests</h6>
-                <h6 class="date">date</h6>
+                <h6 class="box-heading2">Blog for Customer Requests</h6>
+                <h6 class="box-heading1 date">date</h6>
                 <div class="row">
-                    <form class="col s12">
+                    <form class="col s12 merc-input">
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea id="textarea1" class="blog-text"></textarea>
-                                <label for="textarea1">Make your requests</label>
+                                <textarea id="textarea2" class="blog-text"></textarea>
+                                <label for="textarea2">Make your requests</label>
                                 <div class="shove-it-here"></div>
                             </div>
+                            <div id="saveItC"></div>
+                            <p id="demo2"></p>
                         </div>
                     </form>
                 </div>

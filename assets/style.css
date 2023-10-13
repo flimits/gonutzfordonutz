@@ -3,8 +3,8 @@
     color: #ff66c4; */
 }
 
-footer{
-    margin-bottom:0;
+footer {
+    margin-bottom: 0;
 }
 
 #recipe-btn {
@@ -22,30 +22,42 @@ footer{
 }
 
 /* putting stuff about Blogs Here*/
-/* #two-blogs {
-    background-color: lightblue;
-} */
 
 #the-left {
     margin-top: 200px;
-    /* background-color: rgb(249, 188, 92); */
     background-image: linear-gradient(to right, orange, yellow);
 
 }
 
 #the-right {
     margin-top: 200px;
-    /* background-color: lightblue; */
     background-image: linear-gradient(to right, aqua, hotpink);
 }
 
 .blogspots {
 
     border: 2px solid black;
-    width: 400px;
+    width: 600px;
     height: 400px;
     padding: 20px;
     margin: 50px;
+}
+
+.box-heading1 {
+    text-shadow: 3px 3px 2px black;
+    color: aqua;
+    font-variant: small-caps;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.box-heading2 {
+    color: hotpink;
+    text-shadow: 3px 3px 2px black;
+    font-variant: small-caps;
+    font-size: 200%;
+    font-weight: bold;
+
 }
 
 /* Card for comments */
@@ -53,6 +65,22 @@ footer{
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+}
+
+#saveItM {
+    background-image: linear-gradient(to right, aqua, hotpink);
+    width: 500px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+#saveItC {
+    background-image: linear-gradient(to right, orange, yellow);
+    width: 500px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: scroll;
 }
 
 .merc-input {
@@ -114,12 +142,14 @@ iframe {
 #mobile-demo {
     background-color: #ff66c4;
 }
-#footer{
+
+#footer {
     margin-top: 35%;
     background-color: #f81ca4e5;
     color: aqua;
 }
-.section{
+
+.section {
     background-color: #ff66c4;
 }
 
@@ -128,7 +158,7 @@ iframe {
 }
 
 #bacon {
-    color:#ff66c4;
+    color: #ff66c4;
     font-weight: bold;
 }
 
@@ -137,8 +167,8 @@ iframe {
     text-indent: 50px;
 }
 
-#welcome{
-    background-image: linear-gradient(to right, #ffde59 , #ff66c4);
+#welcome {
+    background-image: linear-gradient(to right, #ffde59, #ff66c4);
     padding: 7.5px;
     margin-top: 5%;
     margin-right: 10%;
@@ -147,20 +177,20 @@ iframe {
     color: aqua;
     text-align: center;
 }
-#welcome-logo{
+
+#welcome-logo {
     position: absolute;
     top: 108px;
-    left:120px;
+    left: 120px;
     height: 9%;
     width: 9%;
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .nav-logo {
         margin: .2%;
         width: 10%;
     }
 }
-@media screen and (max-width: 576px){
-    
-}
 
+@media screen and (max-width: 576px) {}
