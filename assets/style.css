@@ -157,17 +157,32 @@ iframe {
 }
 
 #page {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 #bacon {
     color: #ff66c4;
     font-weight: bold;
 }
-
+#bacon2 {
+    color:#ff66c4;
+    font-weight: bold;
+}
+#search {
+    background-color: #ffde59;
+}
 #cite {
     font-size: x-small;
     text-indent: 50px;
+}
+
+
+#rb-btns {
+    font-size: x-large;
+}
+#dict {
+    background-color: black;
+    color: white;
 }
 
 #welcome {

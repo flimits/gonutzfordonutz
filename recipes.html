@@ -11,22 +11,19 @@
 </head>
 
 <body>
-
     <nav>
-
-       <div class="nav-wrapper">
-        <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a id="nav-link" href="index.html">Homepage</a></li>
-            <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
-            <li><a id="nav-link" href="recipes.html">Recipes</a></li>
-            <li><a id="nav-link" href="merch.html">Merch</a></li>
-            <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
-        </ul>  
-
+        <div class="nav-wrapper">
+            <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a id="nav-link" href="index.html">Homepage</a></li>
+                <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+                <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+                <li><a id="nav-link" href="merch.html">Merch</a></li>
+                <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
+            </ul>
         </div>
-        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>
+        <h1 id="header-bar" class="hide-on-small-and-down">Recipes and Blogs</h1>
     </nav>
     <ul class="sidenav" id="mobile-demo">
         <li><a id="nav-link" href="index.html">Homepage</a></li>
@@ -39,7 +36,7 @@
         <div class="row" id="page">
             <div class="col s12">
                 <form class="col s12">
-                    <div class="row">
+                    <div class="row" id="search">
                         <div class="input-field col s12">
                             <textarea id="textarea1" class="materialize-textarea"></textarea>
                             <label for="textarea1">Search</label>
@@ -50,8 +47,10 @@
                     </div>
                 </form>
             </div>
+        </div>
+        <div class="valign-wrapper">
             <div class="row">
-                <div class="col s12 m7">
+                <div class="col s6">
                     <div class="card">
                         <div class="card-image">
                             <img src="./assets/image/BaconLongJohn.jpg" alt="Bacon Long John">
@@ -71,11 +70,11 @@
                                 the popular history is that Dawn Brown, owner of The Swirls bakery in Omaha, Nebraska,
                                 started the “maple bacon donut craze” with “the Elvis”:</p>
                             <br>
-                            <p>“The bakery's owner, Dawn Brown, said she wanted something shocking that people would
+                            <p><blockquote>“The bakery's owner, Dawn Brown, said she wanted something shocking that people would
                                 love or hate, and would talk about. She describes the concept as simple: "It's your
                                 breakfast plate turned into one item that you put in your mouth." She reported: response
                                 from her customers has been overwhelming, and she prepares five pounds of bacon daily.
-                                "I know that most people are coming for the maple bacon donut a.k.a. 'The Elvis'."</p>
+                                "I know that most people are coming for the maple bacon donut a.k.a. 'The Elvis'."</blockquote></p>
                             <br>
                             <p>Other popular donut shops have added similar bacon maple donuts to their menu; such as <a
                                     href="https://dynamodonut.com/">Dynamo Donut</a> in San Francisco, CA, and <a
@@ -89,17 +88,55 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m5">
-                    <div class="card-panel cyan accent-1">
-                        <span class="white-text">I am a very simple card. I am good at containing small bits of
-                            information.
-                            I am convenient because I require little markup to use effectively. I am similar to what is
-                            called a panel in other frameworks.
-                        </span>
+            
+                <div class="col s6">
+                    <div class="card-panel cyan accent-1 center-align">
+                        <h4 id="bacon2">Check Out These Fun Donut Recipes and Blogs</h4>
+                        <br>
+                        <div class="card-content" id="rb-btns">
+                            <a href="https://blog.cheapism.com/crazy-gourmet-doughnuts/" target="_blank">
+                                <button id="recipe-btn">31 Crazy Delicious Doughnuts Across America</button></a>
+                            <br>
+                            <a href="https://www.peanutblossom.com/blog/halloween-donuts/" target="_blank">
+                                <button id="recipe-btn">10 DIY Halloween Donut Ideas</button></a>
+                            <br>
+                            <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/the-best-old-fashioned-doughnut-7472200"
+                                target="_blank">
+                                <button id="recipe-btn">The Best Old-Fashioned Doughnuts</button></a>
+                            <br>
+                            <a href="https://amandascookin.com/air-fryer-donuts/#wprm-recipe-container-50353" target="_blank">
+                                <button id="recipe-btn">Air Fryer Donuts</button></a>
+                            <br>
+                            <a href="https://www.kingarthurbaking.com/recipes/baked-doughnuts-three-ways-recipe" target="_blank">
+                                <button id="recipe-btn">Bake Donghnuts Three Ways</button></a>                
+                        </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col s6 m6">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="./assets/image/Poll 2.png" alt="Donut or Doughnut">
+                        </div>
+                        <div class="card-content">
+                          <p>Cruller, Danish, Sinker, Long John: All names for a delicious treat of fried dough that people have made with different toppings since around the 1700s. The big question is how should it be spelled: Donut or Doughnut?</p>
+                          <br>
+                          <p>The origin of the name according to Dictionary.com:</p>
+                          <br>
+                          <p><blockquote>“Doughnut, of course, is a compound of dough (which became simplified to do- in donut) and nut. But why nut?
+                            There are a couple lines of thinking as to how the nut part of the word came to be. One is that nut, here, is likened to a small lump of dough. The other is related to literal nuts, and traces the sweets back to a woman named Elizabeth Gregory who made deep-fried dough with cinnamon and nutmeg and put hazelnuts or walnuts in the middle. The nuts filled the space where the dough wouldn’t cook all the way through—a solution before the middle was taken out of doughnuts entirely.”
+                            </blockquote></p>
+                            <br>
+                            <h6>Take our poll below and tell us how you think it should be spelled: Doughnut or Donut?</h6>
+                            <br>
+                            <input placeholder="Still Need Poll">
+                        </div>
+                        <div class="card-action">
+                          <p class="center-align" id="dict">Check out Dictionary.com to read their full article:<a href="https://www.dictionary.com/e/doughnut-vs-donut/#a-brief-history"> Doughnut vs. Donut: Is There A Correct Spelling?</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
