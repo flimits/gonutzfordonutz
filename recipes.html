@@ -20,7 +20,7 @@
                 <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
                 <li><a id="nav-link" href="recipes.html">Recipes</a></li>
                 <li><a id="nav-link" href="merch.html">Merch</a></li>
-                <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
+                <li><a id="nav-link" href="donut-blog.html">Donut Blog</a></li>
             </ul>
         </div>
         <h1 id="header-bar" class="hide-on-small-and-down">Recipes and Blogs</h1>
@@ -30,7 +30,7 @@
         <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
         <li><a id="nav-link" href="recipes.html">Recipes</a></li>
         <li><a id="nav-link" href="merch.html">Merch</a></li>
-        <li><a id="nav-link" href="donut-shop.html">Donut Shop</a></li>
+        <li><a id="nav-link" href="donut-blog.html">Donut Blog</a></li>
     </ul>
     <div class="section">
         <div class="row" id="page">
@@ -129,7 +129,15 @@
                             <br>
                             <h6>Take our poll below and tell us how you think it should be spelled: Doughnut or Donut?</h6>
                             <br>
-                            <input placeholder="Still Need Poll">
+                            <div id="poll">
+                                <canvas id="myChart"></canvas>
+                            </div>
+                            <button id="poll-btn-donut" class="btn-large waves-effect waves-light" type="submit" name="action">Donut
+                                <i class="material-icons right">disc_full</i>
+                            </button>
+                            <button id="poll-btn-doughnut" class="btn-large waves-effect waves-light" type="submit" name="action">Doughnut
+                                <i class="material-icons right">disc_full</i>
+                            </button>
                         </div>
                         <div class="card-action">
                           <p class="center-align" id="dict">Check out Dictionary.com to read their full article:<a href="https://www.dictionary.com/e/doughnut-vs-donut/#a-brief-history"> Doughnut vs. Donut: Is There A Correct Spelling?</a></p>
@@ -140,8 +148,7 @@
             </div>
         </div>
     </div>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
