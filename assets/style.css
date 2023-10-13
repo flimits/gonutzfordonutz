@@ -230,11 +230,18 @@ iframe {
     padding: 5px;
 }
 #search-btn{
+    color: black;
+    background-color: aqua;
     left: 380px;
     bottom: 120px;
 }
 #textarea1{
     margin-top:30px;
+}
+#placeholder{
+    font-family: cursive;
+    color: aqua;
+    font-size: 18px;
 }
 
 #about-us{
