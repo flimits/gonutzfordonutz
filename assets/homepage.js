@@ -1,23 +1,19 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
 })
-const ctx = document.getElementById('myChart');
+var donutPoll = document.getElementById('myChart');
       
-new Chart(ctx, {
-  type: 'bar',
+new Chart(donutPoll, {
+  type: 'doughnut',
   data: {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    labels: ['Donut','Doughnut'],
     datasets: [{
       label: '# of Votes',
-      data: [12, 19, 3, 5, 2, 3],
-      borderWidth: 1
+      data: [14,2],
     }]
   },
   options: {
-    scales: {
-      y: {
-        beginAtZero: true
-      }
-    }
-  }
+
+  },
+  plugins: []
 });
