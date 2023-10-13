@@ -124,7 +124,7 @@ iframe {
 }
 
 #page {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 #bacon {
@@ -135,6 +135,10 @@ iframe {
 #cite {
     font-size: x-small;
     text-indent: 50px;
+}
+
+#rb-btns {
+
 }
 
 #welcome{
