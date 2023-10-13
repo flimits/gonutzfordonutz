@@ -213,10 +213,12 @@ iframe {
 }
 
 #search-bar{
+    width: 500px;
+    height: 90px;
     position: absolute;
     z-index: 1;
     color: white;
-    top: 95px;
+    top: 80px;
     right:35px;
     background-color: #ff66c4;
     border-radius: 15px;
@@ -226,6 +228,13 @@ iframe {
     font-family: cursive;
     color: aqua;
     padding: 5px;
+}
+#search-btn{
+    left: 380px;
+    bottom: 120px;
+}
+#textarea1{
+    margin-top:30px;
 }
 
 #about-us{
