@@ -55,6 +55,13 @@ footer {
 
 }
 
+/* Card for merch */
+.merchcard {
+    background-color: #ff66c4;
+    padding: 10px;
+    margin-top: 20px;
+}
+
 /* Card for comments */
 .card {
     background-color: white;
@@ -93,7 +100,10 @@ footer {
 .blog-text {
     color: white;
 }
-
+#poll-title {
+    color: #ff66c4;
+    font-weight: bold;
+}
 #input-box {
     box-sizing: border-box;
     width: 100%;

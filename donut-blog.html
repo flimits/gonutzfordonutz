@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Donutz Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img class="nav-logo responsive-img" src="assets/image/GND.png" alt="logo">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a id="nav-link" href="index.html">Homepage</a></li>
+                <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+                <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+                <li><a id="nav-link" href="merch.html">Merch</a></li>
+                <li><a id="nav-link" href="donut-blog.html">Donut Blog</a></li>
+            </ul>
+        </div>
+        <h1 id="header-bar" class="hide-on-small-and-down">Find Donutz Near You!</h1>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a id="nav-link" href="index.html">Homepage</a></li>
+        <li><a id="nav-link" href="donut-locator.html">Donut Locator</a></li>
+        <li><a id="nav-link" href="recipes.html">Recipes</a></li>
+        <li><a id="nav-link" href="merch.html">Merch</a></li>
+        <li><a id="nav-link" href="donut-blog.html">Donut Blog</a></li>
+    </ul>
+    <div id="two-blogs" class="row">
+        <div id="the-left" class="col s6">
+            <div id="merc-block" class="blogspots">
+                <h6 class="box-heading1">Blog for Merchant Sales</h6>
+                <h6 class="box-heading2 date">date</h6>
+                <div class="row">
+                    <form class="col s12 merc-input">
+                        <div class="row">
+                            <h6 class="state-facts">Share you donutz wares here. Brag a little!!!</h6>
+
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="blog-text"></textarea>
+                                <label for="textarea1">Make your requests</label>
+                                <div class="shove-it-here"></div>
+                            </div>
+                            <div id="saveItM"></div>
+                            <p id="demo1"></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Leave Comments</h3>
+                <p>What do you think? ...</p>
+            </div>
+        </div>
+        <div id="the-right" class="col s6">
+            <div id="shopper-block" class="blogspots">
+                <h6 class="box-heading2">Blog for Customer Requests</h6>
+                <h6 class="box-heading1 date">date</h6>
+                <div class="row">
+                    <form class="col s12 merc-input">
+                        <div class="row">
+                            <h6 class="state-facts">Make your special requests known!!!</h6>
+
+                            <div class="input-field col s12">
+                                <textarea id="textarea2" class="blog-text"></textarea>
+                                <label for="textarea2">Make your requests</label>
+                                <div class="shove-it-here"></div>
+                            </div>
+                            <div id="saveItC"></div>
+                            <p id="demo2"></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Leave Comments</h3>
+                <p>What do you think? ...</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.5/dayjs.min.js"
+        integrity="sha512-Ot7ArUEhJDU0cwoBNNnWe487kjL5wAOsIYig8llY/l0P2TUFwgsAHVmrZMHsT8NGo+HwkjTJsNErS6QqIkBxDw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/donut-blog.js"></script>
+</body>
+
+</html>
