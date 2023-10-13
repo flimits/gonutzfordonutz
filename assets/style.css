@@ -93,7 +93,10 @@ footer {
 .blog-text {
     color: white;
 }
-
+h6 {
+    color: #ff66c4;
+    font-weight: bold;
+}
 #input-box {
     box-sizing: border-box;
     width: 100%;
