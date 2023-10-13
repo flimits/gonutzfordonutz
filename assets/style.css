@@ -215,6 +215,35 @@ iframe {
     padding: 5px;
 }
 
+#about-us{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 50%;
+    height: 500px;
+    left: 5%;
+}
+#about-us-card{
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+#poll{
+    width: 50%;
+    height: 50%;
+}
+#poll-btn-donut{
+    background-color: #45B6FA;
+    position: absolute; 
+    right: 20%; 
+    bottom: 25%;
+}
+#poll-btn-doughnut{
+    background-color: #F4486B;
+    position: absolute;
+    right: 20%; 
+    bottom: 20%;
+}
 @media screen and (max-width: 768px) {
     .nav-logo {
         margin: .2%;
