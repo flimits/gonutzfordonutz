@@ -131,14 +131,21 @@ iframe {
     color:#ff66c4;
     font-weight: bold;
 }
-
+#bacon2 {
+    color:#ff66c4;
+    font-weight: bold;
+}
+#search {
+    background-color: #ffde59;
+}
 #cite {
     font-size: x-small;
     text-indent: 50px;
 }
 
 #rb-btns {
-
+    font-size: x-large;
+    
 }
 
 #welcome{
