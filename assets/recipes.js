@@ -8,7 +8,7 @@ $(window).on("load",function(){
     localStorage.setItem("donutData", 14);
     localStorage.setItem("doughnutData", 2);
     }
-})
+});
 
 var donutPoll = document.getElementById('myChart');
 var donutData = localStorage.getItem("donutData");
@@ -22,10 +22,7 @@ var pollResults = {
         label: '# of Votes',
         data: [parseInt(donutData), parseInt(doughnutData)],
       }]
-    },
-    options: {
-    },
-    plugins: []
+    }
 };
 
 new Chart(donutPoll, pollResults);
@@ -50,4 +47,4 @@ $(".btn-large").on("click",function(){
             localStorage.setItem("doughnutData", parseInt(doughnutData)+1)
         }
     }
-})
+});
