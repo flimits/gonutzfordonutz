@@ -199,6 +199,22 @@ iframe {
     width: 9%;
 }
 
+#search-bar{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 95px;
+    right:35px;
+    background-color: #ff66c4;
+    border-radius: 15px;
+}
+#search-bar-text{
+    font-size: 18px;
+    font-family: cursive;
+    color: aqua;
+    padding: 5px;
+}
+
 @media screen and (max-width: 768px) {
     .nav-logo {
         margin: .2%;
