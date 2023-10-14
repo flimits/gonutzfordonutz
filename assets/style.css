@@ -155,7 +155,6 @@ iframe {
 }
 
 #footer {
-    margin-top: 35%;
     background-color: #f81ca4e5;
     color: aqua;
 }
@@ -258,10 +257,24 @@ iframe {
     width: 90%;
 }
 #puzzle-card{
-   bottom:530px;
-   left: 1200px;
    height: 50%;
    width: 50%;
+   left: 110%;
+   bottom: 200px;
+}
+#NL-card{
+    left: 5%;
+    bottom: 400px;
+}
+#NL-pic{
+    height: 60%;
+    width: 60%;
+}
+#italisize{
+    font-style: italic;
+}
+#bold{
+    font-weight: bold;
 }
 #poll{
     width: 50%;
