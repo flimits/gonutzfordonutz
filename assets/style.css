@@ -257,6 +257,12 @@ iframe {
     height: 90%;
     width: 90%;
 }
+#puzzle-card{
+   bottom:530px;
+   left: 1200px;
+   height: 50%;
+   width: 50%;
+}
 #poll{
     width: 50%;
     height: 50%;
