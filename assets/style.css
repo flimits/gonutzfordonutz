@@ -96,7 +96,10 @@ footer {
     border: solid #5B6DCD 3px;
     padding: 5px;
 }
-
+#abme {
+    font-size: large;
+    font-family: pypyrus;
+}
 .blog-text {
     color: white;
 }
