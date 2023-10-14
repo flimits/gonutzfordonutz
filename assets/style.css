@@ -15,7 +15,9 @@ footer {
 .nav-wrapper {
     background-color: #ff66c4;
 }
-
+#background{
+    background-image: url(image/background.jpg);
+}
 /* putting stuff about Blogs Here*/
 
 #the-left {
@@ -155,7 +157,6 @@ iframe {
 }
 
 #footer {
-    margin-top: 35%;
     background-color: #f81ca4e5;
     color: aqua;
 }
@@ -245,7 +246,7 @@ iframe {
 }
 
 #about-us{
-    background-color: white;
+    background-color: #ff66c4;
     padding: 20px;
     margin-top: 20px;
     width: 50%;
@@ -256,6 +257,29 @@ iframe {
     left: 5%;
     height: 90%;
     width: 90%;
+}
+#puzzle-card{
+    background-color: #ff66c4;
+   height: 50%;
+   width: 50%;
+   left: 110%;
+   bottom: 200px;
+}
+#NL-card{
+    background-color: #ff66c4;
+    left: 5%;
+    bottom: 400px;
+}
+#NL-pic{
+    left: 20%;
+    height: 60%;
+    width: 60%;
+}
+#italisize{
+    font-style: italic;
+}
+#bold{
+    font-weight: bold;
 }
 #poll{
     width: 50%;
