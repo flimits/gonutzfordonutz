@@ -3,7 +3,7 @@ footer {
 }
 
 #recipe-btn {
-    background-color: #ffde59;
+    background-color: aqua;
     color: black;
 }
 
@@ -99,6 +99,7 @@ footer {
 
 /* Card for merch */
 .merchcard {
+    border-radius: 5px;
     background-color: #ff66c4;
     padding: 10px;
     margin-top: 20px;
