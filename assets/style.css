@@ -198,8 +198,14 @@ iframe {
     font-size: x-small;
     text-indent: 50px;
 }
-
-
+#url {
+    background-color: #ffde59;
+    color: black;
+    font-weight: bold;
+}
+#ingredients{
+    font-size: small;
+}
 #rb-btns {
     font-size: x-large;
     background-color: #ffde59;
@@ -208,7 +214,13 @@ iframe {
     background-color: black;
     color: white;
 }
-
+#recipe-title {
+    font-weight: bolder;
+    background-color: #ff66c4;
+}
+#rec-search {
+    background-color: #45B6FA;
+}
 #welcome {
     background-image: linear-gradient(to right, #ffde59, #ff66c4);
     padding: 7.5px;
@@ -259,7 +271,10 @@ iframe {
     color: aqua;
     font-size: 18px;
 }
-
+#close-btn {
+    background-color: #ff66c4;
+    font-weight: bold;
+}
 #about-us{
     background-color: #ff66c4;
     padding: 20px;
