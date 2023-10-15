@@ -94,6 +94,17 @@ footer {
     border: solid #5B6DCD 3px;
     padding: 5px;
 }
+
+div p {
+    margin: 20px;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+}
+/* found this on the net. thought it was really catchy */
+div p:hover {
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;}
+
 /* END of donut-blog css */
 
 
