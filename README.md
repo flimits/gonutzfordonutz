@@ -64,7 +64,6 @@ Donut Blog:
 ## Learning Points 
 
 
-
 ## Code Snippets
 ---
 
@@ -216,13 +215,11 @@ $(".btn-large").on("click",function(){
 });
 ```
 
-
-
 ## Contact Info
 
 | Name      |Email      | Github    | Portfolio |
 |-----------|-----------|-----------|-----------|
 |Anna       |           |           |           |
 |Christina  |           |           |           |
-|Jack       |           |           |           |
+|Jack       |jack.lcmore@gmail.com|https://github.com/JackLCmore|https://jacklcmore.github.io/portfolio/|
 |Jason      |           |           |           |
