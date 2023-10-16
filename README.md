@@ -4,6 +4,7 @@ Get the best donuts near you!!
 
 ## Table of Contents
 
+
 * [Technology Used](#technology-used)
 * [Description](#description)
 * [Learning Points](#learning-points)
@@ -43,8 +44,6 @@ Our site has:
 * Blogs for both consumers and sellers to post about custom donut requests!
 
 ## Learning Points 
-
-
 
 ## Contact Info
 
