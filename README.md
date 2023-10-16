@@ -100,8 +100,6 @@ This allows us to showcase an article related to donut community.
 ---
 ---
 Search Page: With Geolocation.
-First was for a form for search
-![img](./assets/image/README/search-page-with-nav.png)
 
 ```js 
 $(".btn").on("click",function(event){
@@ -109,7 +107,9 @@ $(".btn").on("click",function(event){
     event.preventDefault();
     $("iframe.map").attr("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyA2Qq9tiWUtSdlkiBJov0EMgRDPTEMKJHw&zoom=7&q=donut+shops+in+" + location);
 })
-=======
+```
+![img](./assets/readme%20images/search-page-with-nav.png)
+
 ```html 
         <div id="search-bar" class="row">
             <form class="col s12">
@@ -138,7 +138,7 @@ Second here is how we are using Google API to search by that search parameter
 
 Some things we did for the Donut parafanalia and merchandizing using an Amazon affiliate link.
 
-![img](./assets/image/README/Donut-merch.png)
+![img](./assets/readme%20images/Donut-merch.png)
 
 ```html
             <div class="col s12 m4" style="margin-top: 150px;">
@@ -164,6 +164,7 @@ The Donut Blog where we have merchants blog about what specials they have and Cu
 ![img](./assets/readme%20images/blog.png)
 
 
+
 ```html
                     <div class="card-content">
                         <div class="row">
@@ -177,6 +178,7 @@ The Donut Blog where we have merchants blog about what specials they have and Cu
                     </div>
 ```
 And associated js...
+
 ```js
 // These two are variables to repopulate and get the blog with saved values.
 var blogMCount = getItems("blogM");
@@ -201,7 +203,7 @@ $('#textarea1').keypress(function (e) {
 
 
 Lastly in the code snippets, is  the Chart.JS for the Donut Poll.
-![img](./assets/image/README/donut-poll.png)
+![img](./assets/readme%20images/donut-poll.png)
 
 ```js
 
@@ -238,4 +240,4 @@ $(".btn-large").on("click",function(){
 |Anna       |           |           |           |
 |Christina  |           |           |           |
 |Jack       |jack.lcmore@gmail.com|https://github.com/JackLCmore|https://jacklcmore.github.io/portfolio/|
-|Jason      |           |           |           |
+|Jason       |flimits@gmail.com|https://github.com/flimits|https://github.com/flimits/my-portfolio/|
