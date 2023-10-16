@@ -45,6 +45,10 @@ footer {
     height: 60%;
 }
 
+#left-text{
+    margin-bottom: 30px;
+}
+
 #right-card {
     height: 60%;
 }
@@ -133,7 +137,8 @@ text-shadow: -1px -1px 5px #666666,
 .blog-footer {
     position:fixed;
     width: 100%;
-    bottom:0;
+    height: 200px;
+    bottom:0px;
 }
 
 .blog-text {
@@ -314,10 +319,10 @@ iframe {
     color: black;
     background-color: aqua;
     left: 380px;
-    bottom: 120px;
+    bottom: 130px;
 }
 
-#textarea1 {
+#textarea1{
     margin-top: 30px;
 }
 
