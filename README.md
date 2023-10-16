@@ -71,5 +71,5 @@ Donut Blog:
 |-----------|-----------|-----------|-----------|
 |Anna       |           |           |           |
 |Christina  |           |           |           |
-|Jack       |           |           |           |
+|Jack       |jack.lcmore@gmail.com|https://github.com/JackLCmore|https://jacklcmore.github.io/portfolio/|
 |Jason      |           |           |           |
