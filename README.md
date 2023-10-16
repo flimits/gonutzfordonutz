@@ -71,7 +71,7 @@ Donut Blog:
 Home Page: News Letter.
 This allows us to showcase an article related to donut community. 
 
-![img](./assets/image/README/donus-newsletter-image.png)
+![img](./assets/readme%20images/donus-newsletter-image.png)
 
 ```html
 </div>
