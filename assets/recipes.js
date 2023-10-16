@@ -6,7 +6,7 @@ $(document).ready(function(){
 $(window).on("load",function(){
     if(!donutData || !doughnutData){
     window.location.reload();
-    localStorage.setItem("donutData", 14);
+    localStorage.setItem("donutData", 12);
     localStorage.setItem("doughnutData", 2);
     }
 });
@@ -32,7 +32,7 @@ $(".btn-large").on("click",function(){
     window.location.reload();
     if($(this).attr("id") === "poll-btn-donut"){
         if(!donutData){
-        localStorage.setItem("donutData", 14);
+        localStorage.setItem("donutData", 12);
         localStorage.setItem("doughnutData", 2);
         }
         else{
@@ -42,7 +42,7 @@ $(".btn-large").on("click",function(){
     else{
         if(!doughnutData){
         localStorage.setItem("doughnutData", 2);
-        localStorage.setItem("donutData", 14);
+        localStorage.setItem("donutData", 12);
         }
         else{
             localStorage.setItem("doughnutData", parseInt(doughnutData)+1)
