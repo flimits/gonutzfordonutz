@@ -4,11 +4,18 @@ Get the best donuts near you!!
 
 ## Table of Contents
 
+<<<<<<< HEAD
 * [Technology Used](#technology-used)
 * [Description](#description)
 * [Screenshots of Application](screenshots-of-application)
 * [Learning Points](#learning-points)
 * [Code Snippets](#code-snippets)
+=======
+
+* [Technology Used](#technology-used)
+* [Description](#description)
+* [Learning Points](#learning-points)
+>>>>>>> d7699c234691f45188f0b19d505f9bc347fac68c
 * [Contact Info](#contact-info)
 
 ## Technology Used 
@@ -37,6 +44,7 @@ Go Nutz Donutz is your one stop shop for everything donut related!
 Go Nutz Donutz includes many different ways to interact with the donut community, search for the most convenient location to buy great donutz near you, buy (and sell soon enough) donut merchandise, and discover any fun donut related news you didn't know that you needed.
 
 Our site has:
+<<<<<<< HEAD
 
 * Links to articles and games
 * A Donut Locator map that shows you the most popular donut shops near you
@@ -67,6 +75,19 @@ Donut Blog:
 
 ## Contact Info
 
+=======
+
+* Links to articles and games
+* A Donut Locator map that shows you the most popular donut shops near you
+* A Recipe Search so that you can discover popular confectionary recipes
+* Links to the most popular donut merchandise throughout the World Wide Web
+* Blogs for both consumers and sellers to post about custom donut requests!
+
+## Learning Points 
+
+## Contact Info
+
+>>>>>>> d7699c234691f45188f0b19d505f9bc347fac68c
 | Name      |Email      | Github    | Portfolio |
 |-----------|-----------|-----------|-----------|
 |Anna       |           |           |           |
