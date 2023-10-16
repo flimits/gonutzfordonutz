@@ -97,7 +97,7 @@ This allows us to showcase an article related to donut community.
 ---
 Search Page: With Geolocation.
 First was for a form for search
-![img](./assets/image/README/search-page-with-nav.png)
+![img](./assets/readme%20images/search-page-with-nav.png)
 ```html 
         <div id="search-bar" class="row">
             <form class="col s12">
@@ -126,7 +126,7 @@ Second here is how we are using Google API to search by that search parameter
 
 Some things we did for the Donut parafanalia and merchandizing using an Amazon affiliate link.
 
-![img](./assets/image/README/Donut-merch.png)
+![img](./assets/readme%20images/Donut-merch.png)
 
 ```html
             <div class="col s12 m4" style="margin-top: 150px;">
@@ -148,7 +148,7 @@ Some things we did for the Donut parafanalia and merchandizing using an Amazon a
 
 The Donut Blog where we have merchants blog about what specials they have and Customers can request specialtiy items or needs they have and merchants can reply or take action on them.
 
-![img](./assets/image/README/Donut-merch.png)
+![img](./assets/readme%20images/blog.png)
 
 ```html
                     <div class="card-content">
@@ -187,7 +187,7 @@ $('#textarea1').keypress(function (e) {
 
 
 Lastly in the code snippets, is  the Chart.JS for the Donut Poll.
-![img](./assets/image/README/donut-poll.png)
+![img](./assets/readme%20images/donut-poll.png)
 
 ```html
 new Chart(donutPoll, pollResults);
@@ -222,4 +222,4 @@ $(".btn-large").on("click",function(){
 |Anna       |           |           |           |
 |Christina  |           |           |           |
 |Jack       |jack.lcmore@gmail.com|https://github.com/JackLCmore|https://jacklcmore.github.io/portfolio/|
-|Jason      |           |           |           |
+|Jason       |flimits@gmail.com|https://github.com/flimits|https://github.com/flimits/my-portfolio/|
