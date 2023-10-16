@@ -401,11 +401,6 @@ iframe {
     bottom: 20%;
 }
 
-@media screen and (max-width: 768px) {
-    .nav-logo {
-        margin: .2%;
-        width: 10%;
-    }
-}
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 576px) {}

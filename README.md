@@ -6,7 +6,9 @@ Get the best donuts near you!!
 
 * [Technology Used](#technology-used)
 * [Description](#description)
+* [Screenshots of Application](screenshots-of-application)
 * [Learning Points](#learning-points)
+* [Code Snippets](#code-snippets)
 * [Contact Info](#contact-info)
 
 ## Technology Used 
@@ -42,9 +44,26 @@ Our site has:
 * Links to the most popular donut merchandise throughout the World Wide Web
 * Blogs for both consumers and sellers to post about custom donut requests!
 
+## Screenshots of Application
+
+Homepage:
+![img](./assets/readme%20images/homepage.png)
+
+Donut Locator:
+![img](./assets/readme%20images/map.png)
+
+Recipes and Blogs:
+![img](./assets/readme%20images/recipes.png)
+
+Merchandise:
+![img](./assets/readme%20images/merch.png)
+
+Donut Blog:
+![img](./assets/readme%20images/blog.png)
+
 ## Learning Points 
 
-
+## Code Snippets
 
 ## Contact Info
 
