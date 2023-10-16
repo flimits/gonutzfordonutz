@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
+    $(".modal").modal();
 })
 
 $(window).on("load",function(){
@@ -48,3 +49,41 @@ $(".btn-large").on("click",function(){
         }
     }
 });
+
+$("#recipe-btn").on("click", function(event){
+    event.preventDefault();
+    
+    var query = $("#textarea1").val()
+    var donutSearch = "https://api.spoonacular.com/recipes/complexSearch?apiKey=32c66c99f2d24929ba5b950ee9a6ad04&query="+ query;
+
+    fetch(donutSearch)
+    .then(function(response){
+        return response.json();
+    })
+    .then(function(data){
+        var recipePic = data.results[0].image;
+        console.log(recipePic);
+        var recipeID = data.results[0].id;
+        var recipeURL = "https://api.spoonacular.com/recipes/" + recipeID + "/information?apiKey=32c66c99f2d24929ba5b950ee9a6ad04"
+        $("#recipe-pic").attr("src", recipePic);
+        fetch(recipeURL)
+        .then(function(response){
+            return response.json();
+        })
+        .then(function(data){
+            var recipeInstructions = data.instructions;
+            console.log(recipeInstructions);
+            var recipeURL = data.sourceUrl;
+            console.log(recipeURL);
+            var recipeTitle = data.title;
+            console.log(recipeTitle);
+            $(data.extendedIngredients).each(function(){
+                console.log(this.name);
+                $("#ingredients").append("<p>" + this.name + "</p>");
+            })
+            $("#recipe-title").text(recipeTitle);
+            $("#instruction").append("<p>" + recipeInstructions + "</p>");
+            $("#url").attr("href", recipeURL);
+        })
+    })
+})
