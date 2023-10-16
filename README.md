@@ -64,6 +64,10 @@ Donut Blog:
 ## Learning Points 
 
 
+A very important learning point for the whole team was implementing the use of a new CSS Framework, Materialize proved very easy and functional for the team. It had pre-constructed UI elements we ended up utilizing for basically the entirety of the project.
+
+Another thing learned by the team was the ability to use individual html files for seperate pages on a website. Not only did this allow for an easier spread of work delegation but also security behind branching whilst working on only one page at a time.
+
 ## Code Snippets
 ---
 
@@ -96,8 +100,16 @@ This allows us to showcase an article related to donut community.
 ---
 ---
 Search Page: With Geolocation.
-First was for a form for search
+
+```js 
+$(".btn").on("click",function(event){
+    var location = $("#textarea1").val();
+    event.preventDefault();
+    $("iframe.map").attr("src", "https://www.google.com/maps/embed/v1/search?key=AIzaSyA2Qq9tiWUtSdlkiBJov0EMgRDPTEMKJHw&zoom=7&q=donut+shops+in+" + location);
+})
+```
 ![img](./assets/readme%20images/search-page-with-nav.png)
+
 ```html 
         <div id="search-bar" class="row">
             <form class="col s12">
@@ -148,7 +160,10 @@ Some things we did for the Donut parafanalia and merchandizing using an Amazon a
 
 The Donut Blog where we have merchants blog about what specials they have and Customers can request specialtiy items or needs they have and merchants can reply or take action on them.
 
+
 ![img](./assets/readme%20images/blog.png)
+
+
 
 ```html
                     <div class="card-content">
@@ -163,6 +178,7 @@ The Donut Blog where we have merchants blog about what specials they have and Cu
                     </div>
 ```
 And associated js...
+
 ```js
 // These two are variables to repopulate and get the blog with saved values.
 var blogMCount = getItems("blogM");
@@ -189,7 +205,8 @@ $('#textarea1').keypress(function (e) {
 Lastly in the code snippets, is  the Chart.JS for the Donut Poll.
 ![img](./assets/readme%20images/donut-poll.png)
 
-```html
+```js
+
 new Chart(donutPoll, pollResults);
 
 $(".btn-large").on("click",function(){
@@ -214,6 +231,7 @@ $(".btn-large").on("click",function(){
     }
 });
 ```
+
 
 ## Contact Info
 
