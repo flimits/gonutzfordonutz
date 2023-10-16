@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Donutz Shop</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
@@ -23,6 +24,7 @@
                 <li><a id="nav-link" href="donut-blog.html">Donut Blog</a></li>
             </ul>
         </div>
+        <h1 id="header-bar" class="hide-on-small-and-down">Advertize and Find Sponsored Donutz Near You!</h1>
     </nav>
     <ul class="sidenav" id="mobile-demo">
         <li><a id="nav-link" href="index.html">Homepage</a></li>
@@ -33,16 +35,17 @@
     </ul>
     <div id="two-blogs" class="row flow-text">
         <div id="the-left" class="col m6">
-
             <h2 class="header box-heading1">Blog for Merchant Sales</h2>
 
             <div id="left-card" class="card horizontal">
                 <div>
-                    <img src="./assets/image/donuts_shop_medium.jpeg" alt="" class="circle responsive-img" width="300" height="300">
+                    <img src="./assets/image/donuts_shop_medium.jpeg" alt="" class="circle responsive-img" width="300"
+                        height="300">
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
                         <div class="row">
+
                             <h4 class="state-facts">Share your donut wares here. Brag a little!!!</h4>
                             <div class="input-field col s12">
                                 <textarea id="textarea1 left-text" class="blog-text"></textarea>
@@ -51,12 +54,25 @@
                             <div id="saveItM"></div>
                         </div>
                     </div>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="name" type="text" length="0">
+                                    <label for="name">Enter Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <textarea id="comments" class="materialize-textarea" length="120"></textarea>
+                                    <label for="comments">Add Comments</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
             </div>
-            <!-- <div class="card">
-                <h3>Leave Comments</h3>
-                <p>What do you think? ...</p>
-            </div> -->
         </div>
         <div id="the-right" class="col m6">
 
@@ -64,7 +80,8 @@
 
             <div id="right-card" class="card horizontal">
                 <div>
-                    <img src="https://thumbs.dreamstime.com/z/stack-donuts-coffee-white-plate-black-background-37752846.jpg?w=576" alt="" class="circle responsive-img" width="300" height="300">
+                    <img src="https://thumbs.dreamstime.com/z/stack-donuts-coffee-white-plate-black-background-37752846.jpg?w=576"
+                        alt="" class="circle responsive-img" width="300" height="300">
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
@@ -77,31 +94,48 @@
                             <div id="saveItC"></div>
                         </div>
                     </div>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="name" type="text" length="10">
+                                    <label for="name">Enter Name</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <textarea id="comments" class="materialize-textarea" length="120"></textarea>
+                                    <label for="comments">Add Comments</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>
-</div>
-        <footer class="page-footer blog-footer" id="footer">
-            <div class="container">
-              <div class="col">
+    </div>
+    <footer class="page-footer blog-footer" id="footer">
+        <div class="container">
+            <div class="col">
                 <div class="row l4 offset-l0 s12">
-                  <h5>Contact Us</h5>
-                  <ul>
-                    <li><a class="cyan-text text-lighten-2" href="https://github.com/JackLCmore">Jack</a></li>
-                    <li><a class="cyan-text text-lighten-2" href="https://github.com/Clarsen1782">Christina</a></li>
-                    <li><a class="cyan-text text-lighten-2" href="https://github.com/flimits">Jason</a></li>
-                    <li><a class="cyan-text text-lighten-2" href="https://github.com/abenedetti27">Anna</a></li>
-                    <li>Contact Our Support Hotline: (555)555-5555</li>
-                  </ul>
+                    <h5>Contact Us</h5>
+                    <ul>
+                        <li><a class="cyan-text text-lighten-2" href="https://github.com/JackLCmore">Jack</a></li>
+                        <li><a class="cyan-text text-lighten-2" href="https://github.com/Clarsen1782">Christina</a></li>
+                        <li><a class="cyan-text text-lighten-2" href="https://github.com/flimits">Jason</a></li>
+                        <li><a class="cyan-text text-lighten-2" href="https://github.com/abenedetti27">Anna</a></li>
+                        <li>Contact Our Support Hotline: (555)555-5555</li>
+                    </ul>
                 </div>
-              </div>
             </div>
-            <div class="footer-copyright">
-              <div class="container">
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
                 © 2023 Go Nutz Donutz
-              </div>
             </div>
-          </footer>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

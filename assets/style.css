@@ -67,7 +67,6 @@ footer {
     text-shadow: 3px 3px 2px black;
     color: aqua;
     font-variant: small-caps;
-    /* font-size: 200%; */
     font-weight: bold;
 }
 
@@ -82,7 +81,6 @@ footer {
 
 
 .state-facts {
-    /* font-weight: 600; */
     font-style: italic;
     background: #CCCCCC;
 color: teal;
