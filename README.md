@@ -4,11 +4,10 @@ Get the best donuts near you!!
 
 ## Table of Contents
 
-* [Technologies Used](#code-refactor-example)
+* [Technology Used](#technology-used)
 * [Description](#description)
 * [Learning Points](#learning-points)
 * [Contact Info](#contact-info)
-
 
 ## Technology Used 
 
@@ -44,6 +43,8 @@ Our site has:
 * Blogs for both consumers and sellers to post about custom donut requests!
 
 ## Learning Points 
+
+
 
 ## Contact Info
 
