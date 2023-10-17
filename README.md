@@ -47,19 +47,24 @@ Our site has:
 ## Screenshots of Application
 
 Homepage:
-![img](./assets/readme%20images/homepage.png)
+<img src="./assets/readme images/Wire-home.png" alt="Wireframe Homepage" width="400"/>
+<img src="./assets/readme images/homepage.png" alt="Homepage" width="400"/>
 
 Donut Locator:
-![img](./assets/readme%20images/map.png)
+<img src="./assets/readme images/wire-locator.png" alt="Wireframe Map" width="400"/>
+<img src="./assets/readme images/map.png" alt="Map" width="400"/>
 
 Recipes and Blogs:
-![img](./assets/readme%20images/recipes.png)
+<img src="./assets/readme images/wire-recipes.png" alt="Wireframe Recipes" width="400"/>
+<img src="./assets/readme images/recipes.png" alt="Recipes" width="400"/>
 
 Merchandise:
-![img](./assets/readme%20images/merch.png)
+<img src="./assets/readme images/wire-merch.png" alt="Wireframe Merch" width="400"/>
+<img src="./assets/readme images/Donut-merch.png" alt="Merchandise" width="400"/>
 
 Donut Blog:
-![img](./assets/readme%20images/blog.png)
+<img src="./assets/readme images/wire-blog.png" alt="Wireframe Blog" width="400"/>
+<img src="./assets/readme images/blog.png" alt="Blog" width="400"/>
 
 ## Learning Points 
 
@@ -238,6 +243,6 @@ $(".btn-large").on("click",function(){
 | Name      |Email      | Github    | Portfolio |
 |-----------|-----------|-----------|-----------|
 |Anna       |           |           |           |
-|Christina  |           |           |           |
+|Christina  |clarsen1782@outlook.com|https://github.com/Clarsen1782|https://clarsen1782.github.io/christina-portfolio/|
 |Jack       |jack.lcmore@gmail.com|https://github.com/JackLCmore|https://jacklcmore.github.io/portfolio/|
 |Jason       |flimits@gmail.com|https://github.com/flimits|https://github.com/flimits/my-portfolio/|
