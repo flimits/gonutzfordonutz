@@ -68,10 +68,12 @@ Donut Blog:
 
 ## Learning Points 
 
+The team experienced a learning curve while working in separate branches. While this took some getting used to, it proved to be time well-spent as we were all able to own our individual work streams, which was crucial for completing the site prior to the deadline. Not only did the team work in separate branches, the site was set up with separate html files, which was the first time we had worked in this setup. Not only did this allow for delegation of work, but also security behind branching whilst working on only one page at a time.
 
-A very important learning point for the whole team was implementing the use of a new CSS Framework, Materialize proved very easy and functional for the team. It had pre-constructed UI elements we ended up utilizing for basically the entirety of the project.
+A very important learning point for the whole team was implementing the use of a new CSS Framework, Materialize, proved very easy and functional for the team. This framework was fairly straight-forward and was researched and utilized by each member of the team for different aspects of the site. Each member ran into the same issue with content floating behind the persistent Navbar, so we were able to work together to trouble-shoot.
 
-Another thing learned by the team was the ability to use individual html files for seperate pages on a website. Not only did this allow for an easier spread of work delegation but also security behind branching whilst working on only one page at a time.
+As the team was creating a mobile-first user inter face, the team quickly learned that different page set-ups are much more conducive to smaller screen size. While we did our best to adjust our content appropriately, one of our goals for future developments is to refactor the more content-dense pages to more responsive rules. 
+
 
 ## Code Snippets
 ---
@@ -242,7 +244,7 @@ $(".btn-large").on("click",function(){
 
 | Name      |Email      | Github    | Portfolio |
 |-----------|-----------|-----------|-----------|
-|Anna       |           |           |           |
+|Anna       ||abenedetti27@gmail.com|https://github.com/abenedetti27|https://abenedetti27.github.io/Portfolio/|           |           |           |
 |Christina  |clarsen1782@outlook.com|https://github.com/Clarsen1782|https://clarsen1782.github.io/christina-portfolio/|
 |Jack       |jack.lcmore@gmail.com|https://github.com/JackLCmore|https://jacklcmore.github.io/portfolio/|
 |Jason       |flimits@gmail.com|https://github.com/flimits|https://github.com/flimits/my-portfolio/|
